@@ -78,3 +78,7 @@ look nice*/
     cursor: pointer; 
     border-radius: .5rem;
 }
+/* generate password button color hover effect */
+.btn:hover{
+    background-color: whitesmoke;
+    }
