@@ -22,4 +22,29 @@ allignment of text */
     align-items: center;
     flex-direction: column;
 }
+/* form includes slider, number selection and checkboxes for 
+uppercase, numbers and special characters. CSS grid used to layout columns*/
+.form{
+display: grid;
+grid-template-columns: auto auto;
+row-gap: 1rem;
+column-gap: 3rem;
+justify-content: center;
+align-items: center;
+}
 
+/* title styling */
+.title{
+ margin: 0;
+ text-align: center;   
+}
+/* label elemenrs are the checkboxs and labels for them*/
+label{
+    font-weight: bold;
+}
+/*character-amount-container I am centering and aligning items so they
+look nice*/
+.character-amount-container{
+  display: flex;
+  align-items: center;  
+}
