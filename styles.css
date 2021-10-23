@@ -48,3 +48,22 @@ look nice*/
   display: flex;
   align-items: center;  
 }
+/* this is for rhe number imput box sizing*/
+.number-input{
+    width: 2.6rem
+}
+
+/* password outputbox display box styling */
+.password-display{
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    border: 1px solid rgb(160, 190, 169);
+    height: 2rem;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+    border-radius: 3rem;
+}
