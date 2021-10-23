@@ -1,0 +1,25 @@
+/* Body overall styling THIS STYLES EVERYTHING IN THE BODY BUT WHEN YOU STYLE CLASSES 
+THIS WILL BE IN THE BACKGROUND*/
+body{
+background-color:gray;
+margin: 0;
+color: ivory;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+/* this is the style for the password generator element the box and the 
+allignment of text */
+.container{
+    background-color: rgb(160, 190, 169);
+    padding: 3rem;
+    border-radius:.85rem ;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
