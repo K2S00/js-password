@@ -62,7 +62,7 @@ function generatePassword(characterAmount,includeUppercase,includeNumbers,includ
     const passwordCharacters = []
     // for loop for  all diffrent charcter maps 
         // i = 0 when i is less than characterAmout we will add on another i each time
-    for (let i = 0; i < characterAmount, i++;) 
+    for (let i = 0; i < characterAmount; i++) 
     {
         // creates random value from list of character codes
         // math.floor = returns the largest integer less than or equal to a given number
