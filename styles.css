@@ -65,5 +65,16 @@ look nice*/
     align-items: center;
     justify-content: center;
     word-break: break-all;
-    border-radius: 3rem;
+    border-radius: 1.5rem;
+}
+/*style and postion of password submit button*/
+.btn{
+    grid-column: span 2;
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+    padding: .5rem 1rem;
+    font-weight: bold;
+    cursor: pointer; 
+    border-radius: .5rem;
 }
