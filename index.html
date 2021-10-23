@@ -11,16 +11,20 @@
 <body>
   <div class="container">
     <!--Title-->  
-    <h1>Password Generator</h1>
-    <!-- this is the bpx where the generatored password will be-->  
-    <h3>password</h3>
+    <h1 class="title">Password Generator</h1>
+    <!-- this is the box where the generatored password will be-->  
+    <h3 class="password-display">password</h3>
       <form class="form">
           <!-- Slider range for number selection-->
-          <label for=""> Number of Characters</label>
+         <label for=""> Number of Characters</label>
+          <!-- div used to group slider and number element on one row
+          class character-amount-container -->
+         <div class="character-amount-container">
           <input type="range" min="8" max="128" value="12" 
           id="characterAmountRange">
-          <input type="number" min="8" max="128" value="12" 
+          <input class="number-input" type="number" min="8" max="128" value="12" 
           id="characterAmountNumber">
+        </div>
           
           <!-- Checkboxes for includeUppercase includeNumbers includeSymbols -->
           <label for="includeUppercase">Include Uppercase</label>
@@ -33,7 +37,7 @@
           <input type="checkbox" id="includeSymbols">
           
           <!-- Password Generator submit button -->
-          <button type="submit"> Generate Password</button> 
+          <button type="submit" class="btn"> Generate Password</button> 
       </form>
   </div> 
 
